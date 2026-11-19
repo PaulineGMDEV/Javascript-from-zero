@@ -1,0 +1,7 @@
+{
+const city="Nairobi";
+let score=0;
+score=5;
+console.log(city,score);
+
+}
