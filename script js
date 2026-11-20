@@ -1,7 +1,85 @@
+/*variables*/
 {
 const city="Nairobi";
 let score=0;
 score=5;
 console.log(city,score);
+}
 
+/*objects*/
+const pet= {
+    name:"Simba",
+    type:"cat",
+    age:2
+};
+console.log(pet.name);
+
+/*Functions*/
+function double (num){
+    return num*2;
+}
+console.log(double (7));
+
+
+/*Using if,else*/
+let age =20
+if(age>=20)
+    console.log("Adult");
+
+/*loops*/
+for (let i=0;i<3;i++){
+    console.log("Hello");
+}
+
+for (let i=0;i<3;i++){
+    console.log("Hi");
+}
+
+/*looping through a list*/
+const food=["chai","mandazi","omena","bread","coffee"];
+
+for(let i=0;i<food.length;i++){
+    console.log(food[i]);
+}
+
+/*Array tricks**/
+const snacks=["chai","mandazi"];
+
+snacks.push("samosa");  /*adds at the end*/
+console.log(snacks);
+
+snacks.pop();    /*removes at the end*/
+console.log(snacks);
+
+snacks.unshift("mango");  /*adds at the start*/
+console.log(snacks)
+
+snacks.shift();
+console.log(snacks);    /*removes from the start*/
+
+console.log(snacks.length);  /*how many items are there*/
+
+
+/*shorter loop*/
+const fruits=["apples","grapes","nuts"];
+fruits.push("mangoes")
+for(const fruit of fruits){
+    console.log(`I like ${fruit}`);
+}
+
+/**Using while */ /*use this when you don't know how many rounds you need*/
+let count=1;
+
+while(count<=3){
+    console.log(count);
+    count++;
+}
+
+/*break*/ /*stop the loop early*/
+const fruits=["apples","mangoes","nuts","lemons"];
+if (let i=0;i<fruits.length;i++){
+    if fruits[i]==="apple"{
+        console.log("Found it!");
+        
+    }
 }
